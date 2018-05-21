@@ -79,7 +79,7 @@ class robot:
         measurements = []
         
         ## iterate through all of the landmarks in a world
-        for i in xrange(len(self.landmarks)):
+        for i in range(len(self.landmarks)):
             ## 1. compute dx and dy, the distances between the robot and the landmark
             dx = self.landmarks[i][0] - self.x
             dy = self.landmarks[i][1] - self.y
